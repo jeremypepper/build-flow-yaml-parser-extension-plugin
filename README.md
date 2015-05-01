@@ -6,6 +6,6 @@ Usage in a Build Flow DSL:
 
 ```groovy
 def parser = extension."build-flow-yaml-parser-extension"
-def document = parser.parseText("n- Hesperiidae\n- Papilionidae\n- Apatelodidae\n- Epiplemidae")
+def document = parser.parseYamlText("n- Hesperiidae\n- Papilionidae\n- Apatelodidae\n- Epiplemidae")
 out.println(document) 
 ```
